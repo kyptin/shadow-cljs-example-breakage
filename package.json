@@ -1,0 +1,16 @@
+{
+  "name": "test-evergreen",
+  "description": "Understanding why Evergreen isn't working with CLJS/Reagent",
+  "scripts": {
+    "build": "npx shadow-cljs compile app",
+    "watch": "npx shadow-cljs watch app"
+  },
+  "dependencies": {
+    "evergreen-ui": "^6.0.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.14.2"
+  }
+}
