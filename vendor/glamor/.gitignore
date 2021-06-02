@@ -1,0 +1,9 @@
+/coverage
+/lib
+node_modules/
+npm-debug.log
+examples/bundle.js
+umd/*
+es6/*
+tests/coverage
+.DS_Store
